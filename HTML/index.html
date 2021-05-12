@@ -69,15 +69,40 @@
             <!-- dang nhap dang ki -->
             <div class="log-in-out">
                 <form class="form-inline" action="#">
-                    <input class="btn mr-2 text-white" type="button" value="Đăng nhập" >
+                    <input class="btn mr-2 text-white" type="button" value="Đăng nhập" data-toggle="modal" data-target="#modalDangnhap" >
                     <input class="btn text-white" type="button" value="Đăng ký">
                 </form>
                 
                 
             </div>
-
-            
         </div>
+        <!-- Modal đăng nhap -->]
+        <div id="modalDangnhap" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <ul class="nav nav-tabs bg-dark" role="tablist">
+                        <li class="nav-item"><a href="#" class="nav-link active " data-toggle="tab" data-target="#dangnhap">Dang nhap</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link " data-toggle="tab" data-target="#dangki">Dang ki</a></li>
+                    </ul>
+            <!-- Tab dang nhap/dang ki -->
+                    <div class="tab-content">
+                        <div id="dangnhap" class="tab-pane active">
+                            <input type="text" class="form-control mt-5 " placeholder="Nhap email">
+                            <input type="password" class="form-control mt-5" placeholder="Nhap mat khau">
+                            <div class="btndangnhap text-center">
+                                <input type="submit" class="btn btn-dark mt-5 mb-5" value="Dang nhap">
+                                <input type="button" class="btn btn-dark ml-3" value="Huy" data-dismiss="modal" &times;>
+                            </div>
+                            
+                        </div>
+                        <div id="dangki" class="tab-pane">
+                            alsfd;;ad
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
         <!-- slider -->
         
         <div id="slider" class="carousel slide" data-ride="carousel">
