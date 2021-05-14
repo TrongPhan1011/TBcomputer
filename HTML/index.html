@@ -21,10 +21,10 @@
                <a href="../HTML/index.html"><img  src="../CSS/IMG/logo.png" alt="logo" title="logo cong ty"></a> 
             </div>
 
-            <div class="form-search form-inline">
-                <form action="#">
+            <div class="form-search ">
+                <form class="form-inline" action="#">
                     <input class="form-control" id="search" type="search" placeholder="Nhap tim kiem">
-                    <input class="btn " type="button" value="Tim">
+                    <input class="btn ml-2 " type="button" value="Tim">
                 </form>
             </div>
             
@@ -69,40 +69,62 @@
             <!-- dang nhap dang ki -->
             <div class="log-in-out">
                 <form class="form-inline" action="#">
-                    <input class="btn mr-2 text-white" type="button" value="Đăng nhập" data-toggle="modal" data-target="#modalDangnhap" >
-                    <input class="btn text-white" type="button" value="Đăng ký">
+                    <input class="btn mr-2 text-white" type="button" value="Đăng nhập/Dang ky" data-toggle="modal" data-target="#modalDangnhap" >
+                    
                 </form>
                 
                 
             </div>
         </div>
-        <!-- Modal đăng nhap -->]
+        <!-- Modal đăng nhap -->
         <div id="modalDangnhap" class="modal fade">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <ul class="nav nav-tabs bg-dark" role="tablist">
-                        <li class="nav-item"><a href="#" class="nav-link active " data-toggle="tab" data-target="#dangnhap">Dang nhap</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link " data-toggle="tab" data-target="#dangki">Dang ki</a></li>
+                        <li class="nav-item text-center"> 
+                            <a href="#" class="nav-link active " data-toggle="tab" data-target="#dangnhap">Dang nhap</a></li>
+                        <li class="nav-item text-center"><a href="#" class="nav-link " data-toggle="tab" data-target="#dangki">Dang ky</a></li>
                     </ul>
             <!-- Tab dang nhap/dang ki -->
                     <div class="tab-content">
-                        <div id="dangnhap" class="tab-pane active">
-                            <input type="text" class="form-control mt-5 " placeholder="Nhap email">
-                            <input type="password" class="form-control mt-5" placeholder="Nhap mat khau">
+                        <div id="dangnhap" class="tab-pane active ">
+                            <div class="form-input">
+                               
+                            <input type="text" class="form-control mt-5 " placeholder="Nhap email"> <span id="spMail" class="text-danger">*</span>
+                            
+                            <input type="password" class="form-control mt-5" placeholder="Nhap mat khau"><span id="spPass" class="text-danger">*</span>
+                            </div>
                             <div class="btndangnhap text-center">
-                                <input type="submit" class="btn btn-dark mt-5 mb-5" value="Dang nhap">
+                                <input id="dangnhap" type="submit" class="btn btn-dark mt-5 mb-5" value="Dang nhap">
                                 <input type="button" class="btn btn-dark ml-3" value="Huy" data-dismiss="modal" &times;>
                             </div>
                             
                         </div>
+                        <!-- tab pane dang ky -->
                         <div id="dangki" class="tab-pane">
-                            alsfd;;ad
+                            <div class="form-input">
+                                <input type="text" class="form-control mt-5 " placeholder="Nhap email"> <span id="spMail" class="text-danger">*</span>
+                            
+                                <input type="password" class="form-control mt-2" placeholder="Nhap mat khau"><span id="spPass" class="text-danger">*</span>
+                                <input type="password" class="form-control mt-2" placeholder="Nhap lai mat khau"><span id="spRePass" class="text-danger">*</span>
+                                <input type="text" class="form-control mt-2" placeholder="Nhap ho ten cua ban"><span id="spName" class="text-danger">*</span>
+                                <input type="date" class="form-control mt-2" placeholder="Nhap ngay thang nam sinh cua ban"><span id="spDate" class="text-danger">*</span>
+                                <div class="form-inine mt-2">
+                                    <input type="radio" name="Gioi tinh" id="rdNam" checked> <label for="rdNam"> Nam</label>
+                                    <input type="radio" name="Gioi tinh" id="rdNu"> <label for="rdNu"> Nu</label>
+                                </div>
+                                <input type="text" class="form-control mt-2" placeholder="Nhap so dien thoai cua ban"><span id="spPhone" class="text-danger">*</span>
+
+                            </div>  
+                                <div class="btndangnhap text-center">
+                                    <input id="dangky" type="submit" class="btn btn-dark mt-5 mb-5" value="Dang ky">
+                                    <input type="button" class="btn btn-dark ml-3" value="Huy" data-dismiss="modal" &times;>
+                                </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-       
         <!-- slider -->
         
         <div id="slider" class="carousel slide" data-ride="carousel">

@@ -39,7 +39,8 @@ html {
     
 }
 #header form {
-    margin: auto 20px auto auto;
+    margin: auto 2% auto auto;
+   
 }
 
 #search {
@@ -74,7 +75,30 @@ html {
     color: cyan !important;
     border: 1px solid cyan;
 }
+/* modal */
 
+#modalDangnhap  .form-control {
+    width: 80%;
+}
+
+#modalDangnhap .form-input input {
+    margin-left: 10%;
+}
+#modalDangnhap .nav-tabs .nav-link.active{
+    color: black;
+}
+#modalDangnhap a {
+    color: cyan;
+}
+#modalDangnhap .btn-dark{
+    color: cyan;
+}
+#modalDangnhap .nav-item{
+    width: 50%;
+}
+#modalDangnhap span {
+    margin-left: 10%;
+}
 /* Navigation */
 #main-nav {
     background-color: black;
@@ -291,6 +315,12 @@ html {
     }
     .sub-menu {
         display: block;
+    }
+}
+@media (max-width:600px){
+    #search {
+        width: 50%;
+        
     }
 }
 @keyframes bg-gray-move {
