@@ -44,6 +44,10 @@
     border-bottom: 1px solid rgb(228, 225, 225);
    
 }
+#content .motasp {
+    box-sizing: border-box;
+    height: 351px;
+}
 #content .sp-loaisp-tittle a{
     font-size: 25px;
     font-weight: bold;
@@ -57,6 +61,7 @@
     width: 50%;
     height: 350px;
     margin-left: 25%;
+   
     
 }
 /* Mô tả chi tiết sản phẩm */
@@ -84,4 +89,9 @@
 #content .motasp-chitiet h4 {
     color: red;
     font-weight: bold;
+}
+
+#content .sp-chuot {
+    border-top: 1px solid rgb(228, 225, 225);
+    
 }
