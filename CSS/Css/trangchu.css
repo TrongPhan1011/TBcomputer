@@ -146,9 +146,7 @@ html {
     width: 100%;
 }
 
-#content {
-    
-}
+
 #content .sp {
     width: 100%;
     height: 400px;
@@ -209,6 +207,7 @@ html {
     background-color: black;
     color: gray;
     padding: 10px 0px;
+    clear: both;
     
 }
 #footer .f-gioithieu p {
@@ -246,7 +245,7 @@ html {
 }
 /* tablet */
 .sub-menu {
-    width: 20%;
+    width: 10%;
     float: left;
     display: none;
 }
@@ -303,7 +302,7 @@ html {
     
 }
 
-@media (max-width:1023px) {
+@media (max-width:600px) {
     #main-nav> .nav {
         display: none ;
     }
@@ -317,7 +316,7 @@ html {
         display: block;
     }
 }
-@media (max-width:600px){
+@media (max-width:400px){
     #search {
         width: 50%;
         
