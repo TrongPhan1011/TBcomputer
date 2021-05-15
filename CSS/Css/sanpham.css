@@ -78,7 +78,7 @@
     box-shadow: 1px 1px 2px gray;
     margin: 20px 0px;
 }
-#content .motasp-chitiet input:active {
+#content .motasp-chitiet input:hover {
     color: cyan;
 }
 #content .motasp-chitiet h4 {
@@ -86,3 +86,6 @@
     font-weight: bold;
 }
 
+.sp2 {
+    background-color: rgb(229, 229, 229);
+}
