@@ -51,19 +51,38 @@
 #content .motasp-img {
     width: 50%;
     float: left;
-    border: 1px solid black;
-    
-   
+
 }
 #content .motasp-img img{
     width: 50%;
+    height: 350px;
     margin-left: 25%;
     
 }
+/* Mô tả chi tiết sản phẩm */
 #content .motasp-chitiet {
     width: 50%;
     float: right;
-    border: 1px solid black;
-   
-
+    height: 350px;
+    padding-top: 100px;
 }
+#content .motasp-chitiet h5{
+    font-weight: bold;
+}
+#content .motasp-chitiet p {
+    opacity: 0.6;
+}
+#content .motasp-chitiet input {
+    background-color: black;
+    color: white;
+    box-shadow: 1px 1px 2px gray;
+    margin: 20px 0px;
+}
+#content .motasp-chitiet input:active {
+    color: cyan;
+}
+#content .motasp-chitiet h4 {
+    color: red;
+    font-weight: bold;
+}
+
