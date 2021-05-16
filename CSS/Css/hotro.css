@@ -9,6 +9,10 @@
 #content .about h2 {
     padding: 20px;
 }
+#content img {
+    width: 95%;
+   
+}
 
 /* phan cung */
 #content .gt-phancung {
