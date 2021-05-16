@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#content .about {
+    border-top: 1px solid rgb(229, 229, 229);
+}
+#content .about h2 {
+    padding: 20px;
+}
+
+/* phan cung */
+#content .gt-phancung {
+    margin: 50px;
+    height: 300px;
+}
+#content .phancung-img {
+    width: 50%;
+    float: left;
+}
+#content .phancung-img img {
+    width: 100%;
+}
+#content .phancung-text {
+    float: right;
+    width: 50%;
+    padding: 10px 50px;
+    text-align: justify;
+    opacity: 0.8;
+    font-style: italic;
+}
+#content .phancung-text h4 {
+    margin: 20px;
+}
+/* phan mem */
+#content .gt-phanmem {
+    margin: 50px;
+    height: 300px;
+}
+#content .phanmem-img {
+    width: 50%;
+    float: right;
+}
+#content .phanmem-img img {
+    width: 100%;
+}
+#content .phanmem-text {
+    float: left;
+    width: 50%;
+    padding: 10px 50px;
+    text-align: justify;
+    opacity: 0.8;
+    font-style: italic;
+}
+#content .phanmem-text h4 {
+    margin: 20px;
+}
